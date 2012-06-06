@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     :type => 'MIT',
     :file => 'LICENSE'
   }
-  s.source_files = '*.{h,m}'
+  s.source_files = 'SSPullToRefresh/**/*.{h,m}'
   s.description = 'SSPullToRefresh is a simple andhighly customizable pull to refresh view. It lets you implement a content view separate so you don\'t have to hack up the pulling logic everything you want to customize the appearance.'
   s.platform = :ios
   s.requires_arc = true
